@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply h-[25rem] w-[20rem]  border-l-[1.5rem] border-r-[1.5rem] bg-white border-white flex flex-col items-center justify-center shadow-sm cursor-pointer hover:scale-110 transition-all ease-out duration-1000;
+  }
+}
